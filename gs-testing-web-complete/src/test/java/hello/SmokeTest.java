@@ -17,6 +17,7 @@ public class SmokeTest {
 
     @Test
     public void contexLoads() throws Exception {
+    	System.out.println("test");
         assertThat(controller).isNotNull();
     }
 }
